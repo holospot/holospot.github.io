@@ -6,7 +6,7 @@
         content="3D Mixed-Reality Object Drag-and-Drop">
   <meta name="keywords" content="Holospot, Boston Dynamics Spot, Hololens">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Holospot: 3D Mixed-Reality Object Drag-and-Drop</title>
+  <title>HoloSpot: Intuitive Object Manipulation via Mixed Reality Drag-and-Drop</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -47,7 +47,9 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Holospot: 3D Mixed-Reality Object Drag-and-Drop</h1>
+          <h1 class="title is-1 publication-title">Holospot <br>
+            <p class="title is-3 publication-title">Intuitive Object Manipulation via <br> Mixed Reality Drag-and-Drop</p>
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://keunhong.com">Petar Lukovic</a><sup>1</sup>,
@@ -146,7 +148,8 @@
     <div class="hero-body">
       <img id="teaser" src="./static/images/teaser.png" alt="Teaser" style="width: 100%; height: auto;">
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Holospot</span> is a framework enabling mixed-reality control of the Spot robot
+        <span class="dnerf">Holospot</span> is a framework enabling mixed-reality control of the
+        Spot robot via simple drag-and-drop commands.
       </h2>
     </div>
   </div>
@@ -176,10 +179,11 @@
           <p>
             The Unity-based application provides an interactive tutorial and a user-friendly
             experience, ensuring ease of use. Through comprehensive end-to-end testing, we validate
-            the system's capability in executing pick-and-place tasks.
-            Our findings highlight the advantages of this interface in improving user experience
-            and operational efficiency. This work lays the groundwork for a robust framework that
-            advances the potential for seamless human-robot collaboration in diverse applications.
+            the system's capability in executing pick-and-place tasks and a complementary user study
+            affirms the interface's intuitive controls. Our findings highlight the advantages of
+            this interface in improving user experience and operational efficiency.
+            This work lays the groundwork for a robust framework that advances the potential for
+            seamless human-robot collaboration in diverse applications.
           </p>
         </div>
       </div>
@@ -198,19 +202,39 @@
     </div>
     <!--/ Paper video. -->
 
+     <!-- Results -->
+     <br>
+     <br>
+     <div class="container is-max-desktop">
+       <div class="columns is-centered">
+         <div class="column is-full-width">
+           <h2 class="title is-3">Pick-and-Place Results</h2>
+         </div>
+       </div>
+       <br>
+       <div class="columns is-centered">
+         <img id="results" src="./static/images/success.png" alt="pipeline" style="width: auto; height: auto;">
+       </div>
+     </div>
+     <br>
+     <!-- /Results -->
+
     <!-- Pipeline -->
     <br>
     <br>
     <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3">Control Pipeline</h2>
-        </div>
-      </div>
+      <h2 class="title is-4">Offline Pipeline</h2>
       <br>
       <div class="columns is-centered">
-        <img id="control_pipeline" src="./static/images/control_pipeline.png" alt="pipeline" style="width: auto; height: auto;">
+        <img id="offline_pipeline" src="./static/images/offline_pipeline.png" alt="exp_grasp" style="width: auto; height: auto;">
       </div>
+      <br>
+      <h2 class="title is-4">Online Pipeline</h2>
+      <br>
+      <div class="columns is-centered">
+        <img id="online_pipeline" src="./static/images/online_pipeline.png" alt="exp_drawers" style="width: auto; height: auto;">
+      </div>
+      <br>
     </div>
     <!-- /Pipeline -->  
   </div>
