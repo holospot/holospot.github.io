@@ -4,7 +4,15 @@ This is the repository that contains source code for the [Holospot website](http
 
 If you find Holospot useful for your work please cite:
 ```
-@article{}
+@misc{garcia2024holospotintuitiveobjectmanipulation,
+      title={HoloSpot: Intuitive Object Manipulation via Mixed Reality Drag-and-Drop}, 
+      author={Pablo Soler Garcia and Petar Lukovic and Lucie Reynaud and Andrea Sgobbi and Federica Bruni and Martin Brun and Marc Zünd and Riccardo Bollati and Marc Pollefeys and Hermann Blum and Zuria Bauer},
+      year={2024},
+      eprint={2410.11110},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.11110}, 
+}
 ```
 
 # Website License
